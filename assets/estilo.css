@@ -1,4 +1,4 @@
-body {
+html, body {
     background: url(../assets/capa.png),
                 url(../assets/ruido.png),
                 linear-gradient(50deg, #FF4169, #7C26F8);

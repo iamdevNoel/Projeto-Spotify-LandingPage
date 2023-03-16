@@ -173,3 +173,26 @@ h2, h3 {
     transform: rotate(30deg);
     padding: 0 0 0 80px;
 }
+
+footer {
+    background: #000;
+    padding: 50px 0 20px;
+    position: relative;
+}
+
+footer p {
+    font-size: 0.8em;
+    color: #919496;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+}

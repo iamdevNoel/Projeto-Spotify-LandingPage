@@ -4,6 +4,7 @@ body {
                 linear-gradient(50deg, #FF4169, #7C26F8);
     background-attachment: fixed;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 /* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
 @media (max-width: 575.98px) {
@@ -151,16 +152,24 @@ h1 {
     padding: 10px 0;
 }
 
-h2 {
-    font-weight: 700;
-    letter-spacing: -0.04em;
-}
-
-h3 {
+h2, h3 {
     font-weight: 700;
     letter-spacing: -0.04em;
 }
 
 #servicos h2, h3 {
     color: #7c25f8;
+}
+
+#recursos {
+    padding: 20px 0;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    padding: 0 0 0 80px;
 }

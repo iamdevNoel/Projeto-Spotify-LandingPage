@@ -24,6 +24,10 @@ body {
         font-size: 1em;
         margin: 10px 15px;
     }
+
+    footer p {
+        margin: 25px 0 0;
+    }
 }
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
@@ -42,6 +46,10 @@ body {
 
     h3 {
         font-size: 2em;
+    }
+    
+    footer p {
+        margin: 25px 0 0;
     }
 }
 
@@ -62,6 +70,16 @@ body {
     h3 {
         font-size: 1.5em;
     }
+
+    .footer-logo {
+        width: 100px;
+    }
+
+    
+    footer .icons-float-right {
+        float: right;
+        margin: 0 5px 0;
+    }
 }
 
 /* Dispositivos large (desktops com 992px ou mais) */
@@ -77,6 +95,11 @@ body {
     h3 {
         font-size: 2em;
     }
+    
+    footer .icons-float-right {
+        float: right;
+        margin: 0 10px 0;
+    }
 }
 
 /* Dispositivos extra large (desktops grandes com 1200px ou mais) */
@@ -91,6 +114,11 @@ body {
 
     h3 {
         font-size: 2em;
+    }
+
+    footer .icons-float-right {
+        float: right;
+        margin: 0 15px 0;
     }
 }
 

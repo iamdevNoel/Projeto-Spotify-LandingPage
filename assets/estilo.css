@@ -21,6 +21,7 @@ body {
     }
     
     .btn-custom {
+        font-size: 1em;
         margin: 10px 15px;
     }
 }

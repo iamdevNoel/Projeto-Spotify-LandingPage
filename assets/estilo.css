@@ -177,6 +177,10 @@ h1 {
     background: white;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
 #servicos {
     padding: 20px 0;
 }
